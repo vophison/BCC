@@ -27,6 +27,6 @@
 
 	<div class="form-group col-sm-4 "></div>
     <div class="form-group col-sm-3 "><label >&emsp;</label><input type="text" class="form-control badge-info" name="them" value="Thêm"></div>
-    <hr>	
+   <hr>	
  </form>
  <br><hr>
