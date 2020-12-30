@@ -23,7 +23,7 @@
 					<td class="td"><img class="img-gh" src="/webroot/img/sanpham/<?php echo $kqa['AnhNen'];?>"></td>
 					<td class="td2"><a href="index.php?view=chitietsanpham&masp=<?php echo $item_cart['MaSP']; ?>" ><p><?php echo $item_cart['TenSP'];?></p></a>
 						<p><?php echo $item_cart['Size'];?> / <?php echo $item_cart['Mau'];?></p>
-						<a href="/view/cart/cart_update.php?xoa1=xoa&masp=<?php echo $item_cart['MaSP'];?>&mau=<?php echo $item_cart['Mau'];?>&size=<?php echo $item_cart['Size'];?>"><p>Xóa</p></a>
+						<a href="./view/cart/cart_update.php?xoa1=xoa&masp=<?php echo $item_cart['MaSP'];?>&mau=<?php echo $item_cart['Mau'];?>&size=<?php echo $item_cart['Size'];?>"><p>Xóa</p></a>
 					</td>
 					<td><?php echo number_format($item_cart['DonGia']).' ₫';?></td>
 					<td><span class="input-group-btn">
