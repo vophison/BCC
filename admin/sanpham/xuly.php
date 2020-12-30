@@ -13,10 +13,10 @@ if (isset($_POST['xlthem'])) {
 	// 	header('location:../index.php?action=sanpham&view=themsp&thongbao=loi');
 	// 	exit;
     // }
-    $ex = pathinfo($anhnen ,PATHINFO_EXTENSION);
-    if($ex != 'jpg' || $ex != 'png'){
-        exit;
-    }
+    // $ex = pathinfo($anhnen ,PATHINFO_EXTENSION);
+    // if($ex != 'jpg' || $ex != 'png'){
+    //     exit;
+    // }
 	$AnhSP_tmp = $_FILES['anhnen']['tmp_name'];
 	move_uploaded_file($AnhSP_tmp, '../../webroot/img/sanpham/' . $anhnen);
 	$size = $_POST['size'];
