@@ -178,13 +178,13 @@ if(isset($_GET['xoa1'])){
 				
 			}
 			$_SESSION['cart_product']=$cart;
-		header('location:./BCC/../index.php?view=cart');
+		header('location:./../../index.php?view=cart');
 		}
 	}
 	//xoa toan bo giỏ hàng
 	if(isset($_GET['xoaall'])){
 		unset($_SESSION['cart_product']);
-		header('location:./BCC/../index.php?view=cart');
+		header('location:./../../index.php?view=cart');
 	}
 	?>
 </body>
